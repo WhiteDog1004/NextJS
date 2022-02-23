@@ -1,5 +1,4 @@
 import Layout from "../components/Layout";
-import Navbar from "../components/Navbar";
 
 export default function App({ Component, pageProps }) {
     return (
@@ -10,6 +9,7 @@ export default function App({ Component, pageProps }) {
             <style jsx global>{`
                 body {
                     color: blue;
+                    overflow: scroll;
                 }
             `}</style>
         </Layout>

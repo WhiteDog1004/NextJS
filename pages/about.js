@@ -4,7 +4,7 @@ export default function About() {
     return (
         <>
             <Seo title="About" />
-            <h1>NONONONO HI </h1>
+            <h1>About 페이지입니다 </h1>
         </>
     );
 }
